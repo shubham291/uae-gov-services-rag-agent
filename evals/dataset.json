@@ -1,0 +1,271 @@
+
+ [
+  {
+    "id": "q01",
+    "category": "answerable",
+    "question": "my emirates id is about to expire, can i do the renewal from my phone?",
+    "expected_sources": [
+      "emirates-id-renewal"
+    ],
+    "expected_facts": [
+      "Renew through the ICP app or website",
+      "Upload passport and photo",
+      "Pay the renewal fee",
+      "The new card is delivered by courier"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "q02",
+    "category": "answerable",
+    "question": "My residence visa needs renewing. What paperwork should I get ready?",
+    "expected_sources": [
+      "residence-visa-renewal"
+    ],
+    "expected_facts": [
+      "Apply through ICP Smart Services website or ICP app",
+      "Documents may include passport, personal photo, medical fitness certificate where applicable, health insurance, and documents supporting the residence category",
+      "Requirements depend on residence category"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "q03",
+    "category": "answerable",
+    "question": "هل أقدر أقدم على الإقامة الذهبية من تطبيق ICP؟ ومن الفئات اللي ممكن تكون مؤهلة؟",
+    "expected_sources": [
+      "golden-visa"
+    ],
+    "expected_facts": [
+      "Applications can be submitted through ICP Smart Services or the ICP app",
+      "Eligible categories include investors, entrepreneurs, specialists, exceptional talents, and outstanding students",
+      "Golden Visa provides long-term residence without a traditional sponsor for eligible applicants"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "q04",
+    "category": "answerable",
+    "question": "I stayed after my visa/grace period ran out. How much could the overstay penalty be each day?",
+    "expected_sources": [
+      "visa-overstay-fines"
+    ],
+    "expected_facts": [
+      "A fine may apply after the permitted visa/residence period and any applicable grace period end",
+      "The standard overstay fine is AED 50 per day",
+      "The applicable grace period depends on visa or residence category"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "q05",
+    "category": "answerable",
+    "question": "فاتورة الكهرباء والمياه في دبي وين أشوفها وأسددها أونلاين؟",
+    "expected_sources": [
+      "dewa-bills"
+    ],
+    "expected_facts": [
+      "Use the DEWA website or DEWA Smart App",
+      "Log in using UAE Pass or DEWA credentials",
+      "Select the account, review the bill, and pay using an available payment method"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "q06",
+    "category": "answerable",
+    "question": "What do I need in the car to use Dubai's Salik gates, and how do I add money to the account?",
+    "expected_sources": [
+      "salik-tolls"
+    ],
+    "expected_facts": [
+      "Salik is Dubai's electronic road toll system",
+      "The vehicle needs a Salik tag",
+      "Maintain sufficient account balance and recharge through Salik online services"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "q07",
+    "category": "answerable",
+    "question": "I got a traffic ticket but don't know where to look it up. Which official sites/apps can I use?",
+    "expected_sources": [
+      "traffic-fines"
+    ],
+    "expected_facts": [
+      "Possible official channels include Dubai Police, Abu Dhabi Police, RTA, Ministry of Interior, and Emirates Vehicle Gate",
+      "Choose the relevant authority, check outstanding fine details, and pay online"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "q08",
+    "category": "answerable",
+    "question": "رخصة السواقة عندي بتنتهي قريب، هل أقدر أجددها إلكترونياً؟",
+    "expected_sources": [
+      "driving-licence-renewal"
+    ],
+    "expected_facts": [
+      "Renew online through the relevant emirate's transport authority",
+      "In Dubai, renewal is available through RTA services",
+      "Outstanding traffic fines may need to be paid before renewal"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "q09",
+    "category": "answerable",
+    "question": "I just rented a flat in Dubai. How do I get the tenancy contract registered officially?",
+    "expected_sources": [
+      "ejari-registration"
+    ],
+    "expected_facts": [
+      "Ejari registers a Dubai tenancy contract with the Dubai Land Department",
+      "Use Dubai REST App or a Real Estate Services Trustee Centre",
+      "Submit required tenancy documents and pay applicable fees",
+      "The Ejari certificate is issued after approval"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "q10",
+    "category": "answerable",
+    "question": "شو البطاقة اللي أستخدمها للمترو والباص في دبي؟ وكيف أضيف لها رصيد؟",
+    "expected_sources": [
+      "nol-card"
+    ],
+    "expected_facts": [
+      "A Nol card pays for Dubai public transport including Metro, Tram, buses, and other RTA transport services",
+      "Keep enough balance for journeys",
+      "Top up through RTA channels"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "q11",
+    "category": "answerable",
+    "question": "Do I have to go for a medical test when renewing my UAE residence visa, and what should I take with me?",
+    "expected_sources": [
+      "medical-fitness-test"
+    ],
+    "expected_facts": [
+      "Medical fitness testing is required for many expatriates applying for or renewing a UAE residence visa",
+      "Attend an approved medical fitness centre",
+      "May need Emirates ID or passport, registration form, and recent photograph"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "q12",
+    "category": "answerable",
+    "question": "أحتاج أراجع فواتير ديوا القديمة، مو بس الفاتورة الحالية. وين ألقى سجل الفواتير والمدفوعات؟",
+    "expected_sources": [
+      "dewa-bill-history"
+    ],
+    "expected_facts": [
+      "Use the DEWA website or Smart App",
+      "Log in and access the DEWA account",
+      "Review current and previous bill amounts and payment history"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "q13",
+    "category": "tricky",
+    "question": "how do i renew it?",
+    "expected_sources": [],
+    "expected_facts": [
+      "Ask which item the user means (for example Emirates ID, residence visa, or driving licence)",
+      "Do not assume which renewal process is intended"
+    ],
+    "expected_behavior": "Ask a concise clarification question because the request is ambiguous.",
+    "should_refuse": false
+  },
+  {
+    "id": "q14",
+    "category": "tricky",
+    "question": "my ejri is missing and dewa bill is high, can i check both online?",
+    "expected_sources": [
+      "ejari-tenancy-registration",
+      "ejari-registration",
+      "dewa-bills",
+      "dewa-bill-history"
+    ],
+    "expected_facts": [
+      "Ejari registration/certificate is handled through Dubai REST App or a Real Estate Services Trustee Centre",
+      "DEWA bills can be viewed through the DEWA website or Smart App",
+      "DEWA bill history includes current and previous bills and payment history"
+    ],
+    "expected_behavior": "Interpret the typo 'ejri' as Ejari and answer both parts without confusing the services.",
+    "should_refuse": false
+  },
+  {
+    "id": "q15",
+    "category": "tricky",
+    "question": "golden visa renew emirates id same thing or what?",
+    "expected_sources": [
+      "golden-visa",
+      "golden-visa-application",
+      "emirates-id-renewal"
+    ],
+    "expected_facts": [
+      "Golden Visa is a long-term residence option for eligible categories and has its own eligibility/supporting-document process",
+      "Emirates ID renewal is a separate process through the ICP app or website",
+      "Do not present Golden Visa application and Emirates ID renewal as the same service"
+    ],
+    "expected_behavior": "Explain the distinction and provide the supported high-level steps for each.",
+    "should_refuse": false
+  },
+  {
+    "id": "q16",
+    "category": "tricky",
+    "question": "عندي مخالفات ورخصتي قربت تنتهي، أقدر أجددها الحين ولا لازم أدفع أول؟",
+    "expected_sources": [
+      "traffic-fines",
+      "driving-licence-renewal"
+    ],
+    "expected_facts": [
+      "Traffic fines can be checked through official channels including the relevant police authority, RTA, Ministry of Interior, or Emirates Vehicle Gate",
+      "Outstanding traffic fines may need to be paid before driving licence renewal",
+      "Avoid claiming that payment is always required in every emirate"
+    ],
+    "expected_behavior": "Combine both topics carefully and qualify that requirements may depend on the relevant authority.",
+    "should_refuse": false
+  },
+  {
+    "id": "q17",
+    "category": "unanswerable",
+    "question": "My Golden Visa application was rejected yesterday. What exact reason did ICP record on my file?",
+    "expected_sources": [],
+    "expected_facts": [],
+    "expected_behavior": "State that the provided information does not contain the user's application decision or rejection reason; suggest checking the official ICP application/status or contacting ICP.",
+    "should_refuse": true
+  },
+  {
+    "id": "q18",
+    "category": "unanswerable",
+    "question": "What is the exact total fee in dirhams for renewing my residence visa and Emirates ID together?",
+    "expected_sources": [],
+    "expected_facts": [],
+    "expected_behavior": "Do not invent a total. The documents mention that fees are paid but do not provide exact fee amounts; advise checking the applicable ICP service details.",
+    "should_refuse": true
+  },
+  {
+    "id": "q19",
+    "category": "unanswerable",
+    "question": "Can you tell me whether my landlord has already registered my Ejari, using my flat details?",
+    "expected_sources": [],
+    "expected_facts": [],
+    "expected_behavior": "Explain that the dataset has general registration instructions but no access to the user's tenancy record or registration status; direct them to Dubai REST or a Real Estate Services Trustee Centre.",
+    "should_refuse": true
+  },
+  {
+    "id": "q20",
+    "category": "unanswerable",
+    "question": "I have a 2021 Toyota Corolla. What is my exact unpaid Salik balance and how many toll crossings are still unpaid?",
+    "expected_sources": [],
+    "expected_facts": [],
+    "expected_behavior": "Do not guess account-specific balances or crossings. Explain that the provided information only describes how Salik works and that the user should check their Salik account through official online services.",
+    "should_refuse": true
+  }
+]
