@@ -267,5 +267,14 @@
     "expected_facts": [],
     "expected_behavior": "Do not guess account-specific balances or crossings. Explain that the provided information only describes how Salik works and that the user should check their Salik account through official online services.",
     "should_refuse": true
+  },
+  {
+    "id": "q21",
+    "category": "unanswerable",
+    "question": "can you write a python code for me to add two numbers?",
+    "expected_sources": [],
+    "expected_facts": [],
+    "expected_behavior": "Refuse politely. Must NOT include any code. Redirect to UAE government services.",
+    "should_refuse": true
   }
 ]
